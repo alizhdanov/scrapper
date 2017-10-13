@@ -8,7 +8,8 @@ const flatSchema = new mongoose.Schema({
   },
   rent: Number,
   utils: Number,
-  finalPrice: Number
+  finalPrice: Number,
+  url: String
 });
 
 
