@@ -36,6 +36,7 @@ const baseUrl = 'https://www.bezrealitky.cz/vypis/nabidka-pronajem/byt/praha?pri
 const bot = require('./bot')
 
 const scrap = () => {
+    let amount = 0
     const date = new Date()
     const time = `${date.getHours()}:${date.getMinutes()}`
     console.log('Starting scraping at - ' + time)
@@ -62,12 +63,14 @@ const scrap = () => {
                 .findOne({id: flat.id})
                 .then((res) => {
                     if (res === null) {
+
                         const newFlat = new Flats(flat);
                         return newFlat.save()
                     }
                 })
                 .then((res) => {
                     if (res) {
+                        amount++
                         bot.sendMessageTo(
                             '*final price* = ' + flat.finalPrice + ',\n' +
                             '*rent* = ' + flat.rent + ',\n' +
@@ -78,7 +81,9 @@ const scrap = () => {
                 })
         })
 
+        console.log(`Found ${amount} flats`)
     })
+
 }
 
 scrap()
