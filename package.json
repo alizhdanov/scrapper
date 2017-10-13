@@ -2,19 +2,18 @@
   "name": "telegram_bot1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "dotenv": "^4.0.0",
     "jsdom": "^11.3.0",
     "mongoose": "^4.12.1",
-    "node-telegram-bot-api": "^0.28.0"
-  },
-  "devDependencies": {
+    "node-telegram-bot-api": "^0.28.0",
     "request": "^2.83.0"
   }
 }
