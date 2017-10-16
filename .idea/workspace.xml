@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f1de0f-33d7-45f3-99f3-743474dcd8e3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-    </list>
+    <list default="true" id="e4f1de0f-33d7-45f3-99f3-743474dcd8e3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -182,7 +179,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/projects/dayz-frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vast-mesa-35022" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -221,7 +218,7 @@
       <workItem from="1507879541608" duration="2419000" />
       <workItem from="1507882360768" duration="3941000" />
       <workItem from="1508140766333" duration="687000" />
-      <workItem from="1508141468110" duration="1138000" />
+      <workItem from="1508141468110" duration="1367000" />
     </task>
     <task id="LOCAL-00001" summary="Optimized code">
       <created>1507899868238</created>
@@ -241,7 +238,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13237000" />
+    <option name="totallyTimeSpent" value="13466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="0" />
